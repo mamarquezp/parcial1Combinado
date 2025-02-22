@@ -1,0 +1,10 @@
+//Ejercicio 8 Parcial1
+
+let cadenaDeTexto = prompt(`Ingrese una cadena de texto`)
+let largoCadena = cadenaDeTexto.length
+
+if (largoCadena == 0) {
+    alert(`La cadena de texto está vacía`)
+} else {
+    alert(`La cadena tiene ${largoCadena} caracteres`)
+}
