@@ -1,0 +1,11 @@
+//Ejercicio 9 Parcial1
+
+let primerNumero = Number( prompt(`Ingrese un número`))
+let segundoNumero = Number( prompt(`Ingrese el número por el que quiere dividirlo`))
+const residuoDivision = primerNumero % segundoNumero
+
+if (residuoDivision == 0) {
+    alert(`${primerNumero} es divisible entre ${segundoNumero}`)
+} else {
+    alert(`${primerNumero} no es divisible exactamente entre ${segundoNumero}`)
+}
