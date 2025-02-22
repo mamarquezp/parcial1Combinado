@@ -1,0 +1,14 @@
+//Ejercicio 7 Parcial1
+
+let montoMulta = Number( prompt(`Ingrese el monto de la multa`))
+let antiguedad = Number( prompt(`Ingrese los días de antiguedad de la multa`))
+const descuento = (1-0.2)
+let montoAPagar = 0
+
+if (antiguedad<=10) {
+    montoAPagar = montoMulta * descuento
+} else {
+    montoAPagar = montoMulta
+}
+
+alert(`Debe pagar: ${montoAPagar} dólares`)
